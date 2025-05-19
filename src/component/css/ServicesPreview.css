@@ -1,0 +1,19 @@
+.services-preview {
+    background-color: #f9f9f9;
+}
+.service-card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.service-card:hover {
+    transform: translateY(-10px);
+}
+.service-card h4 {
+    font-size: 1.25rem;
+    color: #333;
+}
+.service-card p {
+    color: #666;
+}

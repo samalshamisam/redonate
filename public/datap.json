@@ -1,0 +1,49 @@
+{
+    "plist": [
+        {
+            "id": 1,
+            "title": "Studio 1- Recording",
+            "price": "59.99$",
+            "hour":"hour",
+            "sqft":"250 sqft",
+            "people":"9 prople",
+            "description": "Designed for recording audio, this studio provides a professional environment for capturing high-quality sound. Ideal for music producers, voiceovers, and podcast recordings."
+        },
+        {
+            "id": 2,
+            "title": "Studio 2- Mixing",
+            "price": "39.99$",
+            "hour":"hour",
+            "sqft":"250 sqft",
+            "people":"18 prople",
+            "description": "Designed for recording audio, this studio provides a professional environment for capturing high-quality sound. Ideal for music producers, voiceovers, and podcast recordings."
+        },
+        {
+            "id": 3,
+            "title": "Studio 3- Mastering",
+            "price": "39.99$",
+            "hour":"hour",
+            "sqft":"250 sqft",
+            "people":"13 prople",
+            "description": "Designed for recording audio, this studio provides a professional environment for capturing high-quality sound. Ideal for music producers, voiceovers, and podcast recordings."
+        }, 
+        {
+            "id": 4,
+            "title": "Studio 4- Music",
+            "price": "48.99$",
+            "hour":"hour",
+            "sqft":"250 sqft",
+            "people":"15 prople",
+            "description": "Designed for recording audio, this studio provides a professional environment for capturing high-quality sound. Ideal for music producers, voiceovers, and podcast recordings."
+        },
+        {
+            "id": 5,
+            "title": "Studio 5- Production",
+            "price": "120.99$",
+            "hour":"hour",
+            "sqft":"250 sqft",
+            "people":"10 prople",
+            "description": "Designed for recording audio, this studio provides a professional environment for capturing high-quality sound. Ideal for music producers, voiceovers, and podcast recordings."
+        }
+    ]
+}

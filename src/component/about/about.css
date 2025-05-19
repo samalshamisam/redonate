@@ -1,0 +1,333 @@
+.about-section{
+    padding-top: 50px;
+}
+.about-section .about-text{
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+}
+.about-text h2{
+    color: white;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.about-text h2 span{
+    color: var(--accent-color);
+}
+.about-text  .about-p{
+    max-width: 450px;
+}
+/* @media (min-width:500px) {
+    .about-text  {
+        display: block !important;
+    }
+} */
+.about-text  .about-p p{
+    font-size: 100%;
+    color: #7a7a7a;
+    
+}
+.about-text  .about-p span{
+    color: white;
+    font-weight: bold;
+}
+.about-text  .about-p .icon svg{
+    color: var(--accent-color);
+    padding: 20px 10px 10px 0px;
+    font-size: 18px;
+}
+.about-text  .about-p .icon svg:hover{
+    color: white;
+}
+.about-section .about-best{
+    padding-top: 40px;
+}
+.about-section .best img{
+    width: 100%;
+}
+.about-section .e-con{
+    text-align: center;
+    transition: 0.5s;
+    padding-top: 20px;
+}
+.about-section .e-con .text h4{
+    color:white ;
+    
+    font-size: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.about-section .e-con img{
+    padding-bottom: 20px;
+    width: 30%;
+}
+.about-section .e-con  .img-e{
+    width: 25%;
+}
+.about-section .e:hover {
+    background-color: #151315;
+    border: 1px solid #8a715a94;
+    transform: translateY(10px);
+    /* padding: 20px; */
+}
+.about-section .e-con a{
+    text-decoration: none;
+    color: var(--accent-color);
+}
+.about-section .about-img{
+    background-image: url(../../image/photo-25-1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+/* .about-years*/
+.about-years{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.about-years  .counter-container {
+    text-align: center;
+    border-right: 1px solid #333;
+    height: 100px;
+}
+.about-years  .counter .count{
+    font-size: 200%;
+    font-weight: bold;
+    color: white;
+}
+.about-years .counter .counter-suffix{
+    font-size: 200%;
+    padding-left: 10px;
+    font-weight: bold;
+    color:var(--accent-color) ;
+}
+.about-years   .counter-title{
+    color: #777;
+}
+/*.about-audio*/
+.about-audio .sound-img{
+    position: relative;
+    height: 400px;
+}
+/* start minds*/
+.about-minds{
+    padding-top: 50px;
+    text-align: center ;
+    background-image: url(../../image/photo-0.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.minds-text{
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.minds-text h2{
+    color: white;
+    font-weight: bold;
+}
+.minds-text h2 span{
+    color: var(--accent-color);
+}
+.minds-text p{
+    color: #7a7a7a;
+    padding-top: 10px;
+}
+/* start card*/
+.about-card {
+    padding-top: 50px;
+}
+.about-card .card{
+    background-color: #231F20;
+    width: 100%;
+    border-radius: 0;
+    margin-bottom: 50px;
+    position: relative;
+}
+.about-card .card h2{
+    color: white;
+}
+.about-card .card p{
+    color: #7a7a7a;
+}
+.about-card  .overlay{
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+    opacity: 0%;
+    transition: 0.5s;
+}
+.about-card  .card:hover .overlay{
+    opacity: 100%;
+    overflow: auto;
+}
+.about-card .card::after{
+    content: '';
+    width: 0%;
+    bottom: 10;
+    left: 50%;
+
+    height:2px;
+    color: var(--accent-color);
+    position: absolute;
+    background-color: var(--accent-color);
+    bottom: 0;
+    transition: width 0.4s ease, left 0.4s ease;
+}
+
+.about-card .card:hover::after{
+    width: 100%;
+    left: 0;
+}
+.about-card .card:hover img{
+    transform: scale(1.2);
+}
+.about-card .card-about{
+    overflow: hidden;
+}
+.about-card .card-about img{
+    width: 100%;
+    transition: 0.5s;
+}
+.about-minds .active{
+    padding-top: 0px !important;
+}
+.about-minds .notactive{
+    padding-top: 20px;
+}
+
+
+
+.about-card  .overlay svg{
+    color: black;
+    background-color: white;
+    font-size: 25px;
+    display: block;
+    border-radius: 50%;
+    padding: 10px;
+    transition: 0.4s;
+    margin-bottom: 5px;
+}
+.about-card  .overlay svg:hover{
+    background-color: var(--accent-color);
+    color: white;
+}
+
+/*swiper-about*/
+.swiper-text{
+    color: white;
+    align-items: center;
+    text-align: start;
+}
+.swiper-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+.swiper-img h2{
+    color: var(--accent-color);
+}
+.swiper-img img{
+    width: 20%;
+    border-radius: 50%;
+    height:60px;
+}
+
+.about-minds .container .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:991px) {
+    .col-md-12 .swiper-img img{
+    width: 10%;
+    height: 50%;
+}
+}
+
+/* logo */
+.swiper-about {
+    width: 300px !important;
+    margin-right: 20px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.swiper-about img{
+    width: 80%;
+}
+.swiper-about {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 100% ;
+    padding: 0px !important;
+}
+.lgoipsum{
+    padding-top: 50px;
+}
+/*stay*/
+.stay{
+    padding-top: 50px;
+}
+.stay-text{
+    color: white;
+}
+.stay-text h2 span{
+    color: var(--accent-color);
+}
+.stay-text p{
+    color: #7a7a7a;
+    padding-top: 15px;
+}
+.stay-email {
+    
+    border: none;
+    display: flex;
+    justify-content: space-between;
+}
+.stay-email .r{
+    background-color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+    padding: 0px 25px 0px 25px;
+    height: 55px;
+    transition: 0.3s;
+        font-weight: 900;
+}
+.stay-email .r:hover{
+    background-color: transparent;
+    color: white;
+}
+/* .stay-email .r::before{
+        /* content: "\e911"; /
+            content: "\f30b";
+} */
+.stay-email .s:hover{
+    border: 1px solid var(--accent-color);
+}
+.stay-email .s .form-control{
+    border-radius: 0;
+    border: none;
+}
+.stay-email .s .form-control:focus{
+    box-shadow: 0 0 0 0 !important;
+}
+
+.stay .icon{
+    display: flex;
+    color: white;
+    align-items: center;
+}
+.stay .icon svg{
+    color: white;
+    padding-left: 15px;
+    font-size: 20px;
+}
+.stay .icon svg:hover{
+    color: var(--accent-color);
+}
+.right img{
+    width: 100%;
+}

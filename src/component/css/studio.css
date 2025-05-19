@@ -1,0 +1,160 @@
+.studio-section {
+    padding: 100px 0;
+    background-image: url(../../image/photo-19.png) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+  .studio-header {
+    margin-bottom: 60px;
+
+  }
+  
+  .studio-title {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 15px;
+    color: white;
+
+  }
+  
+  .studio-title span {
+    color: var(--accent-color); /* لون مميز لكلمة Studio */
+  }
+  
+  .studio-subtitle {
+    font-size: 18px;
+    color: #7a7a7a;
+    max-width: 650px;
+    margin: 0 auto;
+    line-height: 1.7;
+  }
+  
+  .studio-content {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+  }
+  
+  .studio-list {
+    list-style: none;
+    /* padding: 0; */
+  }
+  
+  .studio-item {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: transparent;
+    color: white;
+    border: 1px solid var(--accent-color);
+    width: 100%;
+    padding: 15px;
+  }
+  
+  .studio-item:hover {
+    color: #000000;
+    background-color: var(--accent-color);
+  }
+  
+  .studio-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .studio-details {
+    text-align: center;
+    text-align: start;
+    /* padding-left: 20px; */
+  }
+  
+  .studio-details h3 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: white;
+  }
+  
+  .studio-meta {
+    margin-bottom: 10px;
+  }
+  
+  .studio-price, .studio-hour, .studio-sqft, .studio-people {
+    display: inline-block;
+    margin-right: 10px;
+    color: #555;
+    font-weight: 500;
+  }
+  .studio-details svg{
+    color:white;
+    padding-right: 10px;
+  }
+  .studio-details .studio-price{
+    color: var(--accent-color);
+    font-size: 45px;
+  }
+  .studio-btn {
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: var(--accent-color);
+    color: #fff;
+    border: none;
+    transition: 0.4s;
+    margin-bottom: 20px;
+  }
+  
+  .studio-btn:hover {
+    background-color: transparent;
+    border: 1px solid var(--accent-color);
+  }
+  
+
+  .studio-image, .studio-details {
+    transition: opacity 0.5s ease  ;
+  }
+  
+  .studio-image.fade-out,
+  .studio-details.fade-out {
+    opacity: 0;
+  }
+  
+  .studio-image.fade-in,
+  .studio-details.fade-in {
+    opacity: 1;
+  }
+
+  @media (max-width: 768px){
+    .col-md-3 .studio-list .studio-item{
+        padding: 0;
+        text-align: center;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

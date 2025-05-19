@@ -1,0 +1,183 @@
+/* HeroSection.css */
+.hero-section {
+    background-image: url('../../image/img2.jpg ');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    top: 0px;
+    position: relative;
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+.hero-section .bg-over {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.hero-section .container{
+    z-index: 1;
+}
+@media (max-width:358px) {
+    .hero-section .brush2::before,.hero-section .brush1::before{
+        display: none !important;
+    }
+    /* .hero-section{
+        padding-top: 400px;
+    } */
+    .hero-section h1{
+        font-size: 50px !important;
+    }
+}
+.hero-section .brush1 {
+    position: relative;
+    display: inline-block;
+    padding: 5px 0px;
+    width: 100%;
+}
+.hero-section .brush1::before {
+    content: "";
+    background: url(../../image/brush1.png) no-repeat center;
+    background-size: contain;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: -35%;
+    z-index: -1;
+    opacity: 0.8;
+}
+.hero-section .brush2 {
+    position: relative;
+    display: inline-block;
+    padding: 5px 0px;
+    width: 100%;
+    /* font-size: 50px; */
+}
+.hero-section .brush2::before {
+    content: "";
+    background: url(../../image/brush2.png) no-repeat center;
+    background-size: contain;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: -25%;
+    z-index: -1;
+    opacity: 0.8;
+}
+.hero-section h1 {
+    font-size: 60px;
+    font-weight: bold;
+    position: relative;
+    width: 100%;
+}
+.hero-section p{
+    max-width: 600px;
+    margin-top: 30px;
+}
+p {
+    font-size: 16px;
+    font-family: var(--font-2);
+    color: var(--text-color-2);
+}
+.hero-section .bt{
+    display: flex;
+    padding-left: 15px;
+}
+.hero-section .btn {
+    font-size: 18px ;
+    display: inline-flex ;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-2) ;
+    font-weight: 600 ;
+    position: relative ;
+    display: inline-block ;
+    pointer-events: auto;
+    cursor: pointer;
+    flex-direction: row ;
+    z-index: 1;
+}
+
+
+
+.hero-section .btn-accent:hover {
+    color: white;
+    z-index: 1;
+    background-color: transparent;
+    border: 1px solid var(--accent-color);
+}
+.hero-section .btn-accent {
+    background: var(--accent-color) ;
+    color: var(--primary) ;
+    transition: all 1.0s ;
+    border: 1px solid transparent ;
+    overflow: hidden ;
+    padding: 10px 15px 10px 15px ;
+    border-radius: 0px ;
+    margin-top: 45px;
+    z-index: 1;
+}
+.hero-section .btn-accent-outline{
+    background-color: transparent ;
+    border: 1px solid var(--accent-color) ;
+    color: var(--accent-color) ;
+    transition: all 1.0s ;
+    overflow: hidden ;
+    padding: 10px 15px 10px 15px ;
+    border-radius: 0px ;
+    margin-top: 45px;
+    margin-left: 25px ;
+    z-index: 1;
+}
+.hero-section .btn-accent-outline:hover {
+    color: var(--primary);
+    color: rgb(0, 0, 0);
+    z-index: 1;
+    background-color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+}
+
+
+MoveScaleUpEnd animation {
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1);
+    opacity: 1;
+}
+MoveScaleUpInitial animation {
+    transform: translate3d(0px, -105%, 0px) scale3d(1, 2, 1);
+    opacity: 0;
+}
+
+
+.sound{
+    display: flex;
+    border:3px solid #333;
+    padding: 10px;
+}
+.sound img{
+    width: 15%;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.sound h2{
+    color: var(--accent-color);
+    font-weight: bold;
+}
+.sound h4{
+    font-weight: 400;
+    font-size: 20px;
+}
+iframe{
+    width: 100%;
+    height: 166px;
+}
+.soundcloud-player{
+    width: 100%;
+    margin-left: 15px;
+    border-radius: 100px;
+}

@@ -1,0 +1,202 @@
+
+.partner .text{
+    text-align: start;
+}
+.partner .text h1{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+.partner .text span{
+    color: var(--accent-color);
+}
+.partner .text p{
+    color: #777;
+    padding-top: 15px;
+}
+.partner .partner-img{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    padding-top: 50px;
+}
+
+.partner .p-real {
+    position: relative;
+    overflow: hidden;
+}
+.partner .partner-img .card{
+    width: 100%;
+    border: none;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    border-radius: 0px !important;
+    background-color: transparent;
+}
+.partner .partner-img img{
+    width: 100%;
+    height: 400px;
+    
+}
+
+.partner .partner-img .partner-artist{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    background: rgba(24, 21, 24, 0.3);
+    border: 1px solid rgba(207, 171, 130, 0.2);
+    backdrop-filter: blur(7.5px);
+    opacity: 0; /* إخفاء النص */
+    transform: translateY(100%); /* إخفاء النص من الأسفل */
+    transition: opacity 0.3s, transform 0.5s ease; /* إضافة تأثيرات */
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+.partner .p-real:hover .partner-artist {
+    opacity: 1;
+    transform: translateY(0); /* العودة للمكان الطبيعي */
+}
+.partner-artist p{
+    color: var(--accent-color);
+    padding-top: 20px;
+}
+.partner-artist h2{
+    padding-top: 20px;
+}
+.partner .partner-artist:hover{
+    opacity: 100%;
+    animation: slideIn 0.9s ease forwards;
+    bottom: 0;
+    border-bottom: 5px solid var(--accent-color);
+}
+@keyframes slideIn {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+}
+.partner-artist svg{
+    padding: 10px;
+    font-size: 25px;
+    color: black;
+    background-color: white;
+    border: 2px solid beige;
+    border-radius: 50%;
+    margin: 15px;
+    margin-top: 40px;
+    transition: all 0.3s;
+}
+.partner-artist svg:hover{
+    background-color: var(--accent-color);
+    transform: scale(1.1);
+    color: white;
+}
+
+/* start partner-form*/
+.partner-form{
+    background-image:url(../../image/background.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin-top: 50px;
+    height: 100%;
+    /* background-color:#ffffff17 !important; */
+}
+.partner-form .container{
+    background-color:#ffffff17 !important;
+    height: 100%;
+
+}
+.partner-form .session{
+    padding-top: 50px;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+}
+.partner-form .session h2 span{
+    color: var(--accent-color);
+}
+.partner-form .address{
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: start;
+        width: 100%;
+        padding-top: 50px;
+}
+.partner-form .address h2{
+    width: 300px;
+    font-size: 20px;
+}
+.partner-form .address .active{
+    color:var(--accent-color);
+    font-size: 70%;
+}
+
+
+
+.partner-form .row{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.partner-form form{
+    background: #231F20;
+    padding: 40px;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin-top: 20px;
+}
+.partner-form form .form-control{
+    background-color: #38373C !important;
+    width: 70%;
+    padding: 15px;
+    border: none;
+    color: #ffffff;
+}
+.partner-form form .form-control:hover{
+    border: 1px solid white;
+}
+.partner-form form .form-select {
+    background-color: #38373C  !important;
+    padding: 15px;
+    border: none;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.partner-form form .form-select:hover{
+    border: 1px solid white;
+}
+.partner-form form .form-select option{
+    background-color: #231F20;
+}
+.partner-form form .form-select option:hover{
+    background-color: var(--accent-color) !important;
+    color: black;
+}
+.partner-form form .btn-primary{
+    background: var(--accent-color) ;
+    color: var(--primary) ;
+    transition: all 1.0s ;
+    border: 1px solid transparent ;
+    overflow: hidden ;
+    padding: 12px 29px;
+    border-radius: 0px ;
+    font-size: 17px;
+    font-weight: bold;
+    width: 50%;
+}
+.partner-form form .btn-primary:hover{
+    color: white;
+    background-color: transparent;
+    border: 1px solid var(--accent-color);
+}

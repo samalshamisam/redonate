@@ -1,0 +1,46 @@
+{
+    "our":[
+        {
+            "id": 1,
+            "title": "The team here truly knows how to elevate a song to its full potential. Their expertise and passion made the entire process enjoyable and rewarding.",
+            "imgh2": "Liam Scott",
+            "imgp":"Music Producer",
+            "photo":"./imge/testimonial-1-1.png"
+        },
+        {
+            "id": 2,
+            "title":" I’ve recorded in many places, but nothing compares to this. The team was welcoming, the facilities were top-notch, and the end result exceeded.",
+            "imgh2": "David Miller",
+            "imgp":"Music Producer",
+            "photo":"./imge/testimonial-2-1.png"
+        },
+        {
+            "id": 3,
+            "title":"This studio is a game-changer! The gear quality and skilled operators elevated my tracks. Definitely my go-to for future projects.",
+            "imgh2": "Lisa Grant",
+            "imgp":"Singer",
+            "photo":"./imge/testimonial-3-1.png"
+        },
+        {
+            "id": 4,
+            "title": " I’ve been to many studios, but this one stands out for its dedication and passion. They truly care about delivering the best possible result and ensuring every detail.",
+            "imgh2": "Nina Foster",
+            "imgp":"Artist",
+            "photo":"./imge/testimonial-4-1.png"
+        },
+        {
+            "id": 5,
+            "title": "The team here truly knows how to elevate a song to its full potential. Their expertise and passion made the entire process enjoyable and rewarding.",
+            "imgh2": "Lim Scott",
+            "imgp":"Music Producer",
+            "photo":"./imge/testimonial-1-1.png"
+        },
+        {
+            "id": 2,
+            "title":" I’ve recorded in many places, but nothing compares to this. The team was welcoming, the facilities were top-notch, and the end result exceeded.",
+            "imgh2": "David Miller",
+            "imgp":"Music Producer",
+            "photo":"./imge/testimonial-2-1.png"
+        }
+    ]
+}

@@ -1,0 +1,106 @@
+.faq-section .banner  .banner-ba::before{
+    background:url(../../image/photo-32.jpg) !important ;
+    opacity: 80% ;
+    position: absolute;
+    width: 100% ;
+    height: 100% ;
+    content: "";
+    z-index: -1;
+    background-position: center center !important;
+    background-size: cover !important;
+}
+.ques{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.ques .left{
+    background-color: #38373C;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+}
+.ques .left h3{
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 5px;
+    padding: 10px 25px;
+}
+.list{
+    width: 95%;
+    margin: auto;
+
+}
+.accordion{
+    /* background-color: #303030; */
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 13px 20px ;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+    /* border-bottom: 1px solid black; */
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.accordion::after{
+    content: '\002B';
+    color: white;
+    float:right;
+    font-size: 40px;
+    margin-left: 5px;
+}
+.active::after{
+    content: '\2212';
+}
+.panel{
+    border-bottom: 1px solid #777;
+    font-size: 20px;
+    padding: 0 20px;
+    max-height: 0;
+    color: white;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+.got{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #231F20;
+    padding: 20px;
+    align-items: center;
+}
+.got-text h3{
+    color: white;
+}
+.got-text p{
+    color: #7a7a7a;
+    padding-top: 20px;
+}
+.got button{ 
+    background-color: var(--accent-color);
+    border: none;
+    padding: 10px !important;
+    width: 10%;
+    height: 40% !important;
+    transition: 0.4s;
+}
+.got button:hover{
+    background-color: transparent;
+    border: 1px solid var(--accent-color);
+}
+.got button a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.4s;
+}
+.got button:hover a{
+     color: var(--accent-color);
+}

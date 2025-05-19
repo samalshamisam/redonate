@@ -1,0 +1,82 @@
+{
+    "footer":[
+        {
+            "id": 1,
+            "photo":"./imge/photo-19.jpg"
+        },
+        {
+            "id": 2,
+            "photo":"./imge/photo-20.jpg"
+        },
+        {
+            "id": 3,
+            "photo":"./imge/photo-21.jpg"
+        },
+        {
+            "id": 4,
+            "photo":"./imge/photo-22.jpg"
+        },
+        {
+            "id": 5,
+            "photo":"./imge/photo-23.jpg"
+        }, {
+            "id": 1,
+            "photo":"./imge/photo-19.jpg"
+        },
+        {
+            "id": 2,
+            "photo":"./imge/photo-20.jpg"
+        },
+        {
+            "id": 3,
+            "photo":"./imge/photo-21.jpg"
+        },
+        {
+            "id": 4,
+            "photo":"./imge/photo-22.jpg"
+        },
+        {
+            "id": 5,
+            "photo":"./imge/photo-23.jpg"
+        },
+        {
+            "id": 1,
+            "photo":"./imge/photo-19.jpg"
+        },
+        {
+            "id": 2,
+            "photo":"./imge/photo-20.jpg"
+        },
+        {
+            "id": 3,
+            "photo":"./imge/photo-21.jpg"
+        },
+        {
+            "id": 4,
+            "photo":"./imge/photo-22.jpg"
+        },
+        {
+            "id": 5,
+            "photo":"./imge/photo-23.jpg"
+        }, {
+            "id": 1,
+            "photo":"./imge/photo-19.jpg"
+        },
+        {
+            "id": 2,
+            "photo":"./imge/photo-20.jpg"
+        },
+        {
+            "id": 3,
+            "photo":"./imge/photo-21.jpg"
+        },
+        {
+            "id": 4,
+            "photo":"./imge/photo-22.jpg"
+        },
+        {
+            "id": 5,
+            "photo":"./imge/photo-23.jpg"
+        }
+    ]
+}

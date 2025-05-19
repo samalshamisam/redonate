@@ -1,0 +1,99 @@
+.blog-new .banner  .banner-ba::before{
+    background:url(../../image/photo-40.jpg) !important ;
+    opacity: 80% ;
+    position: absolute;
+    width: 100% ;
+    height: 100% ;
+    content: "";
+    z-index: -1;
+    background-position: center center !important;
+    background-size: cover !important;
+}
+.blog-section{
+    padding-top: 50px ;
+}
+.blog-text{
+    text-align: start;
+}
+@media (max-width:650px) {
+    .blog-text{
+    text-align: center;
+}
+}
+.blog-text h2{
+    color: white;
+    font-weight: bold;
+}
+.blog-text h2 span{
+    color: var(--accent-color);
+}
+.blog-text p{
+    color: #7a7a7a;
+}
+
+
+
+.blog-section .blogs-img{
+    width: 100%;
+    padding-top: 40px;
+}
+.blog-section .blogs-img .img-blogs{
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+.blog-section .blogs-img .img-blogs img{
+    width: 100%;
+    height: 400px;
+    /* position: relative; */
+    transition: 0.4s;
+}
+.blog-section .blogs-img .img-blogs button{
+    position: absolute;
+    left: 9px;
+    bottom: 9px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #777;
+    padding:5px  20px;
+}
+.blog-section .blogs-img .blogs-text-img span{
+    color: #B5B5B5;
+    position: absolute;
+    padding-top: 10px;
+}
+.blog-section .blogs-img .blogs-text-img{
+    width: 100%;
+}
+.blog-section .blogs-img .blogs-text-img h1{
+    /* position: absolute; */
+    padding-top: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    transition: 0.3s;
+    /* max-width: 350px; */
+}
+.blogs .blogs-img .blogs-text-img:hover h1 {
+    color: var(--accent-color) !important;
+}
+.blogs .blogs-img .blogs-text-img p{
+    padding-top: 20px;
+    max-width: 390px;
+}
+
+@media only screen and (max-width: 767px) {
+    .blog-section .blogs-img  {
+        padding-bottom: 325px;
+        max-width: 350px;
+    }
+}
+
+
+.blog-section .blogs-img .img-blogs:hover img{
+filter: brightness(40%) contrast(100%) saturate(100%) blur(0px) hue-rotate(0deg);
+}
+.blog-section .blogs-img .img-blogs:hover img {
+    transform: scale(1.1);
+    overflow: hidden;
+}

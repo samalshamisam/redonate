@@ -1,0 +1,63 @@
+{
+    "team":[
+        {
+            "id":1,
+            "photo":"./imge/team-1.jpg",
+            "group": "Sound Engineer",
+            "title":"Liam Carter",
+            "par":"Sound Engineer"
+        },
+        {
+            "id":2,
+            "photo":"./imge/team-2.jpg",
+            "group": "Sound Engineer",
+            "title":"Ethan Hayes",
+            "par":"Sound Engineer"
+        },
+        {
+            "id":3,
+            "photo":"./imge/team-3.jpg",
+            "group": "Recording Specialist",
+            "title":"Emma Brooks",
+            "par":"Recording Specialist"
+        },
+        {
+            "id":4,
+            "photo":"./imge/team-4.jpg",
+            "group": "Recording Specialist",
+            "title":"Mason Walker",
+            "par":"Recording Specialist"
+        },
+        {
+            "id":5,
+            "photo":"./imge/team-5.jpg",
+            "group": "Mastering Specialist",
+            "title":"Harper Morgan",
+            "par":"Mastering Specialist"
+        }
+        ,
+        {
+            "id":6,
+            "photo":"../imge/team-6.jpg",
+            "group": "Mastering Specialist",
+            "title":"James Parker",
+            "par":"Mastering Specialist"
+        }
+        ,
+        {
+            "id":7,
+            "photo":"../imge/team-7.jpg",
+            "group": "Mixing Specialist",
+            "title":"Caleb Foster",
+            "par":"Mixing Specialist"
+        }
+        ,
+        {
+            "id":8,
+            "photo":"../imge/team-8.jpg",
+            "group": "Mixing Specialist",
+            "title":"Noah Bennett",
+            "par":"Mixing Specialist"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+  "teamall": [
+    {
+      "id": 1,
+      "title": "All Team"
+    },
+    {
+      "id": 2,
+      "title": "Sound Engineer"
+    },
+    {
+      "id": 3,
+      "title": "Recording Specialist"
+    },
+    {
+      "id": 4,
+      "title": "Mastering Specialist"
+    },
+    {
+      "id": 5,
+      "title": "Mixing Specialist"
+    }
+  ]
+}

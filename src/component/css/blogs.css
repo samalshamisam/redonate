@@ -1,0 +1,122 @@
+.blogs{
+    margin-top: 100px;
+}
+.blogs .blogs-text{
+    margin-bottom: 40px;
+}
+.blogs .blogs-text h2{
+    color: white;
+    font-weight: bold;
+    padding-bottom: 20px;
+    line-height: 1.7;
+}
+.blogs .blogs-text h2 span{
+    color: var(--accent-color);
+}
+.blogs .blogs-text p{
+    font-size: 18px;
+    color: #7a7a7a;
+    max-width: 550px;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+.blogs .blogs-img{
+    width: 100%;
+}
+.blogs .blogs-img .img-blogs{
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+.blogs .blogs-img .img-blogs img{
+    width: 100%;
+    height: 400px;
+    /* position: relative; */
+    transition: 0.4s;
+}
+.blogs .blogs-img .img-blogs button{
+    position: absolute;
+    left: 9px;
+    bottom: 9px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #777;
+    padding:5px  20px;
+}
+.blogs .blogs-img .blogs-text-img span{
+    color: #B5B5B5;
+    position: absolute;
+    padding-top: 10px;
+}
+.blogs .blogs-img .blogs-text-img{
+    width: 100%;
+}
+.blogs .blogs-img .blogs-text-img h1{
+    /* position: absolute; */
+    padding-top: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    transition: 0.3s;
+    /* max-width: 350px; */
+}
+.blogs .blogs-img .blogs-text-img:hover h1 {
+    color: var(--accent-color) !important;
+}
+.blogs .blogs-img .blogs-text-img p{
+    padding-top: 20px;
+    max-width: 390px;
+}
+
+@media only screen and (max-width: 767px) {
+    .blogs .blogs-img  {
+        padding-bottom: 325px;
+        max-width: 350px;
+    }
+}
+
+
+.blogs .blogs-img .img-blogs:hover img{
+filter: brightness(40%) contrast(100%) saturate(100%) blur(0px) hue-rotate(0deg);
+}
+.blogs .blogs-img .img-blogs:hover img {
+    transform: scale(1.1);
+    overflow: hidden;
+}
+
+/* news*/
+.blogs-news{
+    width: 100%;
+}
+.blogs-news h1{
+    color: var(--accent-color);
+    padding-bottom: 20px;
+}
+.blogs-news h2{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.blogs-news span{
+    color: #B5B5B5;
+    padding-bottom: 10px ;
+}
+.blogs-news p{
+    color: #7a7a7a;
+    padding-top: 10px;
+    border-bottom: 1px solid #7a7a7a;
+    padding-bottom: 20px;
+}
+.blogs-news button{
+    background-color: transparent;
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+    padding: 13px 20px;
+    transition: 0.3s;
+    margin-top: 5px;
+}
+.blogs-news button:hover{
+    transform: scale(0.9);
+}

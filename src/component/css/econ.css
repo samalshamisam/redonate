@@ -1,0 +1,32 @@
+.econ{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.econ .e-con{
+    text-align: center;
+    transition: 0.5s;
+}
+.econ .e-con .text h4{
+    color:white ;
+    
+    font-size: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.econ .e-con img{
+    padding-bottom: 20px;
+    width: 30%;
+}
+.econ  .e-con  .img-e{
+    width: 21%;
+}
+.econ .e:hover {
+    background-color: #151315;
+    border: 1px solid #8a715a94;
+    transform: translateY(-15px);
+    padding: 20px;
+}
+.econ .e-con a{
+    text-decoration: none;
+    color: var(--accent-color);
+}

@@ -1,0 +1,128 @@
+.contact .banner  .banner-ba::before{
+    background:url(../../image/photo-42.jpg) !important ;
+    opacity: 80% ;
+    position: absolute;
+    width: 100% ;
+    height: 100% ;
+    content: "";
+    z-index: -1;
+    background-position: center center !important;
+    background-size: cover !important;
+}
+.contact-form{
+    margin-top: 50px;
+    background-color: #231F20;
+    color: white;
+    padding: 40px 20px 40px 20px ;
+}
+.contact-form .form-control{
+    background-color: #38373C;
+    border: none;
+    padding: 15px 10px 15px 10px ;
+    border-radius: 0;
+}
+.contact-form .form-control {
+    color: rgb(255, 255, 255) ;
+}
+.contact-form .form-control:focus{
+    border: 1px solid var(--accent-color);
+        box-shadow: none;
+}
+.contact-form button{
+    background-color: var(--accent-color);
+    color: black;
+    border: none;
+    width: 100%;
+    border-radius: 0 ;
+    padding: 15px;
+    font-weight: 600;
+    transition: 0.4s;
+    margin-top: 20px;
+}
+.contact-form button:hover{
+    background-color: transparent;
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+}
+.contact-form  .form-control::placeholder {
+color: #999 !important; 
+}
+/*contact-text*/
+.contact-text{
+    padding-top: 30px ;
+}
+.contact-text h2{
+    color: var(--accent-color);
+    padding-bottom: 20px;
+}
+.contact-text p{
+    color: #7a7a7a;
+    padding-bottom: 20px;
+    margin: auto;
+}
+.contact-text span{
+    color: #7a7a7a;
+}
+.contact-text svg{
+    color: rgba(255, 255, 255, 0.801);
+    padding-right: 5px;
+}
+/*contact-with*/
+.contact-with{
+    padding-top: 50px;
+    text-align: start;
+}
+.contact-with h2{
+    font-weight: bold;
+    padding-bottom: 20px;
+    color: white;
+}
+.contact-with h2 span{
+    color: var(--accent-color);
+}
+.contact-with p{
+    color: #7a7a7a;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.contact-with h1{
+    color: var(--accent-color);
+    padding-top: 20px;
+}
+.contact-with div{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-top: 20px;
+}
+.contact-with div span{
+    color: var(--accent-color);
+}
+/*asked*/
+.asked{
+    padding-top: 30px;
+}
+.asked-text{
+    text-align: center;
+}
+.asked-text h2{
+    color: white;
+    font-weight:bold ;
+}
+.asked-text h2 span{
+    color: var(--accent-color);
+}
+.asked-text p{
+    color: #7a7a7a;
+    max-width: 750px;
+    margin: 0 auto;
+
+    padding-top: 20px;
+}
+/*asked-ques*/
+.asked-ques{
+    background-color: #231F20;
+    padding-top: 30px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
