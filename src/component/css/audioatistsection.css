@@ -65,8 +65,6 @@
     animation: slideInr 0.9s ease forwards;
     top: 10 !important;
     background-color:#8a715a94 !important;
-    /* border-left: 1px solid var(--accent-color) ;
-    border-right: 1px solid var(--accent-color); */
 }
 .sa .card:hover  .audio-sound{
   border-left: 1px solid var(--accent-color);

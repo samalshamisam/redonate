@@ -11,8 +11,6 @@ import { faStar } from '@fortawesome/free-solid-svg-icons';
 import { Pagination, FreeMode } from 'swiper/modules';
 // import { FreeMode, Pagination } from "swiper/modules";
 import { faQuoteRight } from '@fortawesome/free-solid-svg-icons';
-
-
 const Our = () => {
     const [ourlist, setOur] = useState([]);
     // const form = useRef();
@@ -78,93 +76,7 @@ const Our = () => {
     </div>
   </SwiperSlide>
 ))}
-
         </Swiper>
-
-
-
-
-
-
-
-
-
-                        {/* <Swiper
-                            slidesPerView={1}
-                            spaceBetween={30}
-                            loop={true}
-                            pagination={{
-                            clickable: true,
-                            }}
-                            navigation={true}
-                            modules={[Pagination, Navigation]}
-                            className="mySwiper"  data-wow-duration="2s" data-wow-delay="0.5s"
-                        >
-                                <div className='our-teams-container'>
-                                <SwiperSlide className='swip' >
-                                
-                                <div className='our-team'>
-                                    <div className='icon'>
-                                    <FontAwesomeIcon icon={faQuoteRight} size="2x" />
-                                    </div>
-                                    <div className='our-p'>
-                                        <p>The team here truly knows how to elevate a song to its full potential. Their expertise and passion made the entire process enjoyable and rewarding.</p>
-                                    </div>
-                                    <div className='our-img'>
-                                        <img src={photo1}/>
-                                        <div className='our-img-text'>
-                                            <h2>Liam Scott</h2>
-                                            <p>Music Producer</p>
-                                            <FontAwesomeIcon icon={faStar} className="rkit" /><FontAwesomeIcon icon={faStar} className="rkit" /><FontAwesomeIcon icon={faStar} className="rkit" /><FontAwesomeIcon icon={faStar} className="rkit" /><FontAwesomeIcon icon={faStar} className="rkit" />
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                </SwiperSlide>
-                                </div>
-                        </Swiper> */}
-                        {/* <Swiper
-          slidesPerView={1}
-          spaceBetween={30}
-          freeMode={true}
-          pagination={{
-            clickable: true,
-          }}
-          breakpoints={{
-            640: {
-              width: 640,
-              slidesPerView: 1,
-            },
-            768: {
-              width: 768,
-              slidesPerView: 2,
-            },
-          }}
-          modules={[FreeMode, Pagination]}
-          className="mySwiper wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.5s"
-        >
-          {projects.slice(1, 9).map((project) => (
-            <SwiperSlide className='swip' target="_blank" rel="noreferrer"  >
-                                <div className='our-team'>
-                                    <div className='icon'>
-                                    <FontAwesomeIcon icon={faQuoteRight} size="2x" />
-                                    </div>
-                                    <div className='our-p'>
-                                        <p>The team here truly knows how to elevate a song to its full potential. Their expertise and passion made the entire process enjoyable and rewarding.</p>
-                                    </div>
-                                    <div className='our-img'>
-                                        <img src={photo1}/>
-                                        <div className='our-img-text'>
-                                            <h2>Liam Scott</h2>
-                                            <p>Music Producer</p>
-                                            <FontAwesomeIcon icon={faStar} className="rkit" /><FontAwesomeIcon icon={faStar} className="rkit" /><FontAwesomeIcon icon={faStar} className="rkit" /><FontAwesomeIcon icon={faStar} className="rkit" /><FontAwesomeIcon icon={faStar} className="rkit" />
-                                        </div>
-                                    </div>
-                                </div>
-                                </SwiperSlide>
-            
-          ))}
-        </Swiper> */}
                 </div>
             </Row>
         </Container>

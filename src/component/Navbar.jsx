@@ -24,7 +24,7 @@ const NavBar= () =>  {
     }, []);
     return (
         <>
-    <Navbar  expand="lg"  className={"navbar-inverse" + (scrolled ? 'scrolled' : '')} >
+    <Navbar  expand="lg"  className={"navbar-inverse" + (scrolled ? 'scrolled' : '' )} >
     <Container>
         <div className='logo'>
         <Navbar.Brand href="#Home">

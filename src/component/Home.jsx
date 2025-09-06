@@ -28,11 +28,6 @@ const Home = () => {
     <Our />
     <Blogs />
     <Footer />
-    {/*
-    <ServicesSection />
-    <AudioPlayerSection />
-    <Testimonials />*/}
-    {/* <CallToAction />  */}
     </>
 );
 }

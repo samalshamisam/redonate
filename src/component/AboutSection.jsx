@@ -10,13 +10,11 @@ import img7 from '../image/img7.jpg';
 import axios from "axios";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 // import './styles.css';
-
 // import required modules
 import { Pagination, Navigation } from 'swiper/modules';
 const AboutSection = () => {
@@ -135,12 +133,3 @@ const AboutSection = () => {
 };
 
 export default AboutSection;
-
-
-// const [projects, setProject] = useState([]);
-// useEffect(() => {
-//   axios.get("data.json")
-//     .then((res) => {
-//       setProject(res.data.projects)
-//     })
-// }, [])

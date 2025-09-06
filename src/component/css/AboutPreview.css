@@ -1,7 +1,6 @@
 .bg-light{
     background-color: var(--background-color) !important;
     color: white;
-    /* position: relative; */
     z-index: 0;
 }
 
@@ -113,10 +112,6 @@ h1 {
 
 /* swiper*/
 
-
-/* .logo-swiper  .swiper-slide .swiper-slide-active .swip{
-    width:00px !important;
-} */
 .logo-swiper .swiper-slide{
     width: 300px !important;
     margin-right: 20px !important;
@@ -129,10 +124,6 @@ h1 {
     width: 100% ;
     padding: 0px !important;
 }
-
-
-
-
 .logo-swiper{
     margin-top: 20px;
     margin-bottom: 20px;

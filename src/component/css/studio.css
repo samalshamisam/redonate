@@ -7,7 +7,6 @@
 }
   .studio-header {
     margin-bottom: 60px;
-
   }
   
   .studio-title {
@@ -15,7 +14,6 @@
     font-weight: 800;
     margin-bottom: 15px;
     color: white;
-
   }
   
   .studio-title span {
@@ -110,7 +108,6 @@
     border: 1px solid var(--accent-color);
   }
   
-
   .studio-image, .studio-details {
     transition: opacity 0.5s ease  ;
   }
@@ -124,37 +121,9 @@
   .studio-details.fade-in {
     opacity: 1;
   }
-
   @media (max-width: 768px){
     .col-md-3 .studio-list .studio-item{
         padding: 0;
         text-align: center;
     }
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
