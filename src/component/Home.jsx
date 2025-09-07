@@ -2,10 +2,10 @@
 import React from 'react';
 import HeroSection from '../component/HeroSection';
 import AboutSection from '../component/AboutSection';
-import ServicesSection from '../component/ServicesSection';
+// import ServicesSection from '../component/ServicesSection';
 import AudioPlayerSection from './about/About';
 import Testimonials from '../component/Testimonials';
-import CallToAction from '../component/CallToAction';
+// import CallToAction from '../component/CallToAction';
 import NavBar from './Navbar';
 import Econ from './Econ';
 import Audioartistsection from './Audioartistsection';
